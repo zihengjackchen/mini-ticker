@@ -1,0 +1,16 @@
+{
+    "update_interval": 300,
+    "stocks": [
+      {"name": "Apple", "symbol": "AAPL"},
+      {"name": "Tesla", "symbol": "TSLA"},
+      {"name": "Google", "symbol": "GOOGL"},
+      {"name": "Amazon", "symbol": "AMZN"}
+    ],
+    "font": ["Arial", 20],
+    "bg_color": "black",
+    "text_color": "white",
+    "highlight_positive": "green",
+    "highlight_negative": "red",
+    "api_key": "YOUR_FINNHUB_API_KEY"
+  }
+  
