@@ -1,12 +1,15 @@
-# **ini-Ticker**
+# **Mini Ticker**
 
 A lightweight, fullscreen stock ticker built with Python and Tkinter. Ideal for Raspberry Pi or any Python-compatible system. Powered by the [Finnhub API](https://finnhub.io/).
+
+![Demo](demo.gif)
 
 ## **Features**
 - Real-time tracking for multiple stocks.
 - Minimalistic, fullscreen design for small screens.
 - Performance-based coloring (green for gains, red for losses).
 - Fully customizable via `config.json`.
+- Low memory usage: ~20 MB.
 
 ---
 
@@ -39,19 +42,6 @@ Customize `config.json`:
 - **Colors**: Set `highlight_positive` (green) and `highlight_negative` (red).
 - **Update Interval**: Set in seconds with `update_interval`.
 
-Example:
-```json
-{
-  "stocks": [
-    {"name": "Apple", "symbol": "AAPL"},
-    {"name": "Tesla", "symbol": "TSLA"}
-  ],
-  "update_interval": 300,
-  "highlight_positive": "green",
-  "highlight_negative": "red"
-}
-```
-
 ---
 
 ## **Usage**
@@ -65,17 +55,6 @@ Example:
 
 ---
 
-## **Planned Features**
-- Auto-scroll for long stock lists.
-- Historical trend sparklines.
-
----
-
-## **Contributing**
-
-1. Fork the repo, create a branch, make changes, and submit a pull request.
-
----
-
 ## **License**
 Licensed under the MIT License.
+```

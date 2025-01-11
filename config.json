@@ -1,16 +1,44 @@
 {
-    "update_interval": 300,
-    "stocks": [
-      {"name": "Apple", "symbol": "AAPL"},
-      {"name": "Tesla", "symbol": "TSLA"},
-      {"name": "Google", "symbol": "GOOGL"},
-      {"name": "Amazon", "symbol": "AMZN"}
+  "update_interval": 60,
+  "asset_jumping_time": 10,
+  "assets": {
+    "Stocks": [
+      "AAPL",
+      "TSLA",
+      "GOOGL",
+      "AMZN",
+      "MSFT",
+      "META",
+      "NFLX",
+      "NVDA",
+      "ADBE",
+      "AMD"
     ],
-    "font": ["Arial", 20],
-    "bg_color": "black",
-    "text_color": "white",
-    "highlight_positive": "green",
-    "highlight_negative": "red",
-    "api_key": "YOUR_FINNHUB_API_KEY"
-  }
-  
+    "ETFs": [
+      "VOO",
+      "VGT",
+      "SCHD",
+      "SPY",
+      "DIA",
+      "QQQ",
+      "IWM",
+      "TLT",
+      "GLD",
+      "DBC"
+    ],
+    "Crypto": [
+      "BINANCE:BTCUSDC",
+      "BINANCE:ETHUSDC"
+    ]
+  },
+  "font": "Georgia",
+  "header_font_size": 20,
+  "asset_font_size": 18,
+  "bg_color": "black",
+  "text_color": "white",
+  "highlight_positive": "green",
+  "highlight_negative": "red",
+  "fullscreen": false,
+  "window_size": [320, 480],
+  "api_key": "YOUR_FINNHUB_API_KEY"
+}
