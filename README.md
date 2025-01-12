@@ -57,4 +57,3 @@ Customize `config.json`:
 
 ## **License**
 Licensed under the MIT License.
-```
